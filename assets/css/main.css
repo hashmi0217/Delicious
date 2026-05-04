@@ -1284,6 +1284,64 @@ section,
 /*--------------------------------------------------------------
 # Book A Table Section
 --------------------------------------------------------------*/
+
+.btn-warning {
+  background: #ffb03b;
+  border: none;
+  color: #fff;
+  font-weight: 600;
+  padding: 10px 25px;
+  border-radius: 10px;
+  transition: all 0.3s ease;
+}
+
+.btn-warning:hover {
+  background: #e69a2e;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 15px rgba(255, 176, 59, 0.4);
+}
+
+/* ===== CONFIRM BUTTON ===== */
+.btn-success {
+  background: #28a745;
+  border: none;
+  font-weight: 600;
+  padding: 8px 20px;
+  border-radius: 10px;
+  transition: all 0.3s ease;
+}
+
+.btn-success:hover {
+  background: #218838;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 15px rgba(40, 167, 69, 0.4);
+}
+
+/* ===== EDIT / SECONDARY BUTTON ===== */
+.btn-secondary {
+  background: #6c757d;
+  border: none;
+  font-weight: 600;
+  padding: 8px 20px;
+  border-radius: 10px;
+  transition: all 0.3s ease;
+}
+
+.btn-secondary:hover {
+  background: #5a6268;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 15px rgba(108, 117, 125, 0.4);
+}
+
+/* ===== GENERAL BUTTON ANIMATION FEEL ===== */
+button {
+  cursor: pointer;
+}
+
+button:active {
+  transform: scale(0.96);
+}
+
 .book-a-table .reservation-img {
   min-height: 500px;
   background-size: cover;
@@ -1562,6 +1620,37 @@ section,
 /*--------------------------------------------------------------
 # Contact Section
 --------------------------------------------------------------*/
+
+/* ===== SEND MESSAGE BUTTON ===== */
+.send-btn {
+  background: #ffb03b;
+  color: #fff;
+  border: none;
+  padding: 12px 30px;
+  font-weight: 600;
+  border-radius: 10px;
+  transition: all 0.3s ease;
+  display: inline-block;
+}
+
+/* Hover effect */
+.send-btn:hover {
+  background: #e69a2e;
+  transform: translateY(-2px);
+  box-shadow: 0 8px 18px rgba(255, 176, 59, 0.4);
+}
+
+/* Active click effect */
+.send-btn:active {
+  transform: scale(0.96);
+}
+
+/* ===== OPTIONAL: INPUT FOCUS (contact form feel better) ===== */
+#contact-form .form-control:focus {
+  border-color: #ffb03b;
+  box-shadow: 0 0 8px rgba(255, 176, 59, 0.3);
+}
+
 .contact .info {
   background-color: var(--surface-color);
   padding: 40px;
